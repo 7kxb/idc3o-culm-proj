@@ -166,7 +166,7 @@ func _ready():
 
 
 func _on_anims_animation_finished(_anim_name):
-	get_tree().change_scene(\"res://Demo/Main.tscn\")
+	get_tree().change_scene(\"res://Scenes/Menu.tscn\")
 	pass # Replace with function body.
 "
 
