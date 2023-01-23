@@ -14,7 +14,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="2DGridMovement"
+config/name="TTMFCACIASRAGRAACBIAW"
+config/description="That Time My Friend Crashed A Car In A Street Race And Got Reincarnated As A Cat Boy In Another World"
 run/main_scene="res://Scenes/Intro.tscn"
 config/icon="res://icon.png"
 
