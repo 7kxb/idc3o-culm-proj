@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Scripts/LevelLoader.gd" type="Script" id=1]
 [ext_resource path="res://Demo/demo_tiles.tres" type="TileSet" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://Scenes/Objects/TransitionZone.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Scripts/TransitionZone2.gd" type="Script" id=5]
 [ext_resource path="res://Demo/Lillypad.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Demo/synthwave.mp3" type="AudioStream" id=7]
 
 [node name="LevelBase" type="Node2D"]
 script = ExtResource( 1 )
@@ -49,3 +50,7 @@ tile_set = ExtResource( 2 )
 cell_size = Vector2( 16, 16 )
 format = 1
 tile_data = PoolIntArray( 65538, 10, 0, 65539, 10, 0 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 7 )
+autoplay = true

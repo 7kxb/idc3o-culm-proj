@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/synthwave.mp3-2606851af9a45697368725b0627684d3.mp3str"
+
+[deps]
+
+source_file="res://Demo/synthwave.mp3"
+dest_files=[ "res://.import/synthwave.mp3-2606851af9a45697368725b0627684d3.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
