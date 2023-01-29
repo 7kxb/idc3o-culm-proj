@@ -60,7 +60,66 @@ margin_bottom = 22.0
 rect_scale = Vector2( 2, 2 )
 text = "100                0"
 
+[node name="Label3" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = 55.0
+margin_top = 7.0
+margin_right = 151.0
+margin_bottom = 21.0
+rect_scale = Vector2( 2, 2 )
+text = "100                0"
+
+[node name="Label4" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = 57.0
+margin_top = 9.0
+margin_right = 153.0
+margin_bottom = 23.0
+rect_scale = Vector2( 2, 2 )
+text = "100                0"
+
+[node name="Label5" type="Label" parent="."]
+margin_left = 56.0
+margin_top = 8.0
+margin_right = 152.0
+margin_bottom = 22.0
+rect_scale = Vector2( 2, 2 )
+text = "100                0"
+
 [node name="Label2" type="Label" parent="."]
+margin_left = 720.0
+margin_top = 8.0
+margin_right = 869.0
+margin_bottom = 22.0
+rect_scale = Vector2( 2, 2 )
+text = "10                10"
+align = 2
+
+[node name="Label6" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = 719.0
+margin_top = 7.0
+margin_right = 868.0
+margin_bottom = 21.0
+rect_scale = Vector2( 2, 2 )
+text = "10                10"
+align = 2
+
+[node name="Label7" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = 721.0
+margin_top = 9.0
+margin_right = 870.0
+margin_bottom = 23.0
+rect_scale = Vector2( 2, 2 )
+text = "10                10"
+align = 2
+
+[node name="Label8" type="Label" parent="."]
 margin_left = 720.0
 margin_top = 8.0
 margin_right = 869.0
@@ -79,12 +138,12 @@ position = Vector2( 200, 32 )
 scale = Vector2( 1.8125, 1.8125 )
 texture = ExtResource( 3 )
 
+[node name="Armor" type="Sprite" parent="."]
+position = Vector2( 954.375, 29.75 )
+scale = Vector2( 1.57422, 1.57031 )
+texture = ExtResource( 5 )
+
 [node name="HastilyMadeSword" type="Sprite" parent="."]
 position = Vector2( 808, 24 )
 scale = Vector2( 2.5, 2.5 )
 texture = ExtResource( 4 )
-
-[node name="Armor" type="Sprite" parent="HastilyMadeSword"]
-position = Vector2( 60.7999, -9.53674e-07 )
-scale = Vector2( 0.559376, 0.55625 )
-texture = ExtResource( 5 )
